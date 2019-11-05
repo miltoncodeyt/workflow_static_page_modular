@@ -1,0 +1,2 @@
+### CONTIENE FILES THE STYLE ONLY LAYOUT
+- max-width

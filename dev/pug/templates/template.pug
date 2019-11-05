@@ -1,0 +1,28 @@
+block variables
+    include ../config/variables.pug
+
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=no")
+    meta(name="twitter:card" content="summary_large_image")
+    meta(name="twitter:site" content=twitterAccount)
+    meta(property="og:title" content=pageTitle)
+    meta(property="og:description" content=pageDescription)
+    meta(property="og:image" content=pageImage)
+    meta(name="description" content=pageDescription)
+    title= `${pageTitle} - ${siteName}`
+    link(rel="shortcut icon" href="./img/milton-code-favicon.png")
+    link(rel="stylesheet" href="css/styles.css")
+  body
+    header(class="header")
+      block header
+        
+    main(class="main")
+      block main
+        
+    footer(class="footer")
+      block footer
+
+    script(src="js/scripts.js")

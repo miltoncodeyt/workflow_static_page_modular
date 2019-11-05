@@ -1,0 +1,2 @@
+### CONTIENE FILES THE CONFIGURATION
+- variables.pug
