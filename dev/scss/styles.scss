@@ -1,0 +1,14 @@
+
+
+@import "config/functions";
+@import "config/vars";
+@import "config/mixins";
+
+// Estilos base
+
+@import "base/base";
+
+
+body {
+  @include var(background-color, primary);
+}
