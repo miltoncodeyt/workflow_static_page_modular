@@ -1,0 +1,12 @@
+
+// recupera variables root:css y la remplaza segun su propiedad  
+@mixin var($property, $var) {
+  #{$property}: map-get($vars_colors, $var);
+  #{$property}: var(--#{$var})
+}
+/* example apply ruler: 
+  body { 
+    @include var(background-color, secondary);
+  }
+*/
+  
