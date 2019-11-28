@@ -27,13 +27,13 @@ body{
   font-family:Nunito,sans-serif;
   font-size:1em; }
 
-.title,h1{
+.title{
   font-size:2.625em; }
 
-.subtitle,h2{
+.subtitle{
   font-size:2em; }
 
-.medium,h3{
+.medium{
   font-size:1.5em; }
 
 .small,small{

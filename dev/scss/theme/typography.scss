@@ -15,6 +15,11 @@ $fonts: (
   smaller : em(10px)
 );
 
+// Font weigth
+$normal : 400;
+$semibold : 600;
+$bold : 700;
+
 
 // define el tamaño de la tipografia 
 /* example apply ruler: 
@@ -32,13 +37,10 @@ body {
   @include font(base);
 }
 
-h1,
 .title { @include font(title); }
 
-h2,
 .subtitle { @include font(subtitle); }
 
-h3,
 .medium { @include font(medium); }
 
 small,

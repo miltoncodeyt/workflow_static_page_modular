@@ -42,7 +42,9 @@ Mixins:
 - reseteo de `<ul>`
 - reseteo de `<a>`
 - variables `root:css` y la remplaza segun su propiedad  
+- breakpoints (mediaqueries)
 
 
 Map:() mapas
 - mapa paleta de color `config/vars.css`
+- mapa valores mediaqueries `config/vars.css`

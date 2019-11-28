@@ -13,3 +13,12 @@ $vars_colors: (
   }
 
 }
+
+// Rompedores mediaqueries
+$breakpoints: (
+  xs: 30em, /* 480 / 16  */
+  s: 37.5em, /* 600 / 16  */
+  m: 45em, /* 720 / 16 */
+  l: 64em, /* 1024 / 16 */
+  xl: 75em /* 1200 / 16 */
+);

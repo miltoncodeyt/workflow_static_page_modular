@@ -10,6 +10,21 @@
   }
 */
 
+// Mediaqueries
+// Utilizacion 1:  @include mq(m) { font-size: 16px }
+// Utilizacion 2:  @include mq(420px) { font-size: 16px }
+@mixin mq($bp) {
+  @if map-has-key($breakpoints, $bp) {
+    @media screen and ( min-width: map-get($breakpoints, $bp) ) {
+      @content;
+    }
+  } @else {
+    @media screen and ( min-width: $bp ) {
+      @content;
+    }
+  }
+}
+
 // Reset - <ul>
 @mixin ul-reset {
   margin-top: 0;
