@@ -1,0 +1,47 @@
+// Fuente tipográfica, por defecto
+/*
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito&display=swap');
+
+// tamaño de fuente tipografica 
+$fonts: (
+  title : em(42px),
+  subtitle : em(32px),
+  medium : em(24px),
+  base : em(16px),
+  small : em(12px),
+  smaller : em(10px)
+);
+
+
+// define el tamaño de la tipografia 
+/* example apply ruler: 
+  body { 
+    @include font(base);
+  }
+*/
+@mixin font($size) {
+  font-size: map-get($fonts, $size)
+}
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+  @include font(base);
+}
+
+h1,
+.title { @include font(title); }
+
+h2,
+.subtitle { @include font(subtitle); }
+
+h3,
+.medium { @include font(medium); }
+
+small,
+.small { @include font(small); }
+
+.smaller { @include font(smaller); }

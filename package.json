@@ -16,9 +16,9 @@
     "cssnano": "^3.10.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
+    "gulp-imagemin": "^4.1.0",
     "gulp-postcss": "^6.4.0",
     "gulp-pug": "^3.3.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-imagemin": "^4.1.0"
+    "gulp-sass": "^3.1.0"
   }
 }

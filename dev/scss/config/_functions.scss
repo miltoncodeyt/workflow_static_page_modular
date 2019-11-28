@@ -1,0 +1,10 @@
+
+// Convertidor de px a em
+@function em($px){
+  @return ($px / 16px) * 1em;
+}
+/* example apply ruler: 
+  body { 
+    font-size: em(10px);
+  }
+*/

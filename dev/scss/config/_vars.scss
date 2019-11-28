@@ -1,4 +1,4 @@
-// map(): paleta de color 
+// map:() paleta de color 
 $vars_colors: (
   primary : #E8B63B,
   secondary : #2A00FF,
@@ -7,7 +7,7 @@ $vars_colors: (
 
 // variables root:css
 :root {
-  // recorre el map(): vars_colors, y compila las variables nativas css
+  // recorre el map:() vars_colors, y compila las variables nativas css
   @each $key, $value in $vars_colors {
     --#{$key}: #{$value};
   }

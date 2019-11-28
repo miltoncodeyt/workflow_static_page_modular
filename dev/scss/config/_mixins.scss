@@ -9,4 +9,17 @@
     @include var(background-color, secondary);
   }
 */
-  
+
+// Reset - <ul>
+@mixin ul-reset {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+
+// Reset - <a>
+@mixin a-reset {
+  text-decoration: none;
+}
