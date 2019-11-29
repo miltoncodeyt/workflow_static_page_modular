@@ -1,5 +1,3 @@
-
-
 @import "config/functions";
 @import "config/vars";
 @import "config/mixins";
@@ -9,6 +7,14 @@
 @import "base/base";
 
 
+// Layout
+@import "layout/layout";
+
+
 // Estilos theme
 
 @import "theme/typography";
+@import "theme/theme";
+
+
+// Components
