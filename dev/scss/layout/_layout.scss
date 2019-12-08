@@ -7,6 +7,14 @@
 
 .l-container--full { max-width: 100%; }
 
+.l-inner-p {
+
+  @media screen and (max-width : 75em){
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+}
+
 .l-section {
   margin-top: 60px;
   margin-bottom: 60px;
